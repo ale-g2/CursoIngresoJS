@@ -3,14 +3,14 @@ function mostrar()
 //tomo la edad  
 var mesDelAño = document.getElementById('mes').value;
 var mensaje;
- switch(mesDelAño)
+ switch(mesDelAño)  
  {
  	case "Enero":
  	case "Marzo":
  	case "Abril":
  	case "Mayo":
  	case "Junio":
- 	case "Julio":
+ 	case "Julio":  
  	case "Agosto":
  	case "Septiembre":
  	case "Octubre":
@@ -20,9 +20,7 @@ var mensaje;
  		break;
  	case "Febrero":
  	mensaje="Este mes tiene 30 dias o mas";
- 		default:
- 		alert('Prueba');
- 		break;
+ 		default: alert("pruebas"); break; 
 
 
  }
