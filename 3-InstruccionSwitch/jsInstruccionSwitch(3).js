@@ -21,7 +21,7 @@ var mensaje;
  	case "Febrero":
  	mensaje="Este mes tiene 30 dias o mas";
  		default:
- 		alert('adssda');
+ 		alert('Prueba');
  		break;
 
 
